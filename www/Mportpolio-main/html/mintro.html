@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>김준태의 모바일 포트폴리오</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- 모바일 디바이스 설정 -->
+
+<link rel="stylesheet" href="../css/font.css">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="../js/jquery.mobile-1.4.5.min.css">
+
+</head>
+
+<body>
+<div data-role="page"><!-- page -->
+	<div data-role="header">
+		<h2>김준태의 웹 포트폴리오</h2>
+		<a href="#leftpanel" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left"></a>
+	</div><!--header -->
+
+	<div data-role="panel" id="leftpanel" data-position="left" data-display="overlay" data-theme="a" class="ui-panel ui-panel-position-left ui-panel-display-overlay ui-body-a ui-panel-animate ui-panel-open">
+		<div class="ui-panel-inner">
+		<a data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-notext"  style="margin-top:-10px; margin-left:-10px;margin-bottom:20px;"></a>
+		<ul data-role="listview" class="ui-listview">
+			<li class="ui-first-child">
+				<a href=mintro.html rel="external", data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-carat-r">자기소개</a>
+			</li>
+			<li>
+				<a href="minfo.html" rel="external", data-ajax="false"  class="ui-btn ui-btn-icon-right ui-icon-carat-r">인적사항</a>
+			</li>
+			<li>
+				<a href="mstudy.html" rel="external", data-ajax="false"  class="ui-btn ui-btn-icon-right ui-icon-carat-r">학술</a>
+			</li>
+			<li>
+				<a href="mcareer.html" rel="external", data-ajax="false"  class="ui-btn ui-btn-icon-right ui-icon-carat-r">경력사항</a>
+			</li>
+			<li>
+				<a href="language proficiency.html" rel="external", data-ajax="false"  class="ui-btn ui-btn-icon-right ui-icon-carat-r">언어 숙련도</a>
+			</li>
+		</ul>
+		</div><!-- ui-panel-inner -->
+	</div><!-- end of menu-->
+
+	<div data-role="content"> 
+		<center>
+    <img src="../img/사진.jpg"  style="max-width:100%; height:auto;"> 
+</center>
+    <center>
+      <b>안녕하세요!<br>
+        동의과학대학교 인공지능컴퓨터정보과에 재학 중인 <br>
+        김준태입니다.
+    </center>
+	</div><!-- end of content -->
+
+	<div data-role="footer">
+    <center><h5>김준태의 홈페이지</center></h5>
+  </div>
+</div><!-- end of page -->
+</body>
+</html>
