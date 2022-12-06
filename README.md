@@ -61,4 +61,4 @@ packagingOptions {<br>
 → 기기(스마트폰)에 실행 : cordova run android <br><br>
 
 ## ✍️ 레이아웃
-![레이아웃](https://github.com/kingstrike/cordova_mprotpolio/blob/www/img/과제스샷.png) 
+![레이아웃](https://user-images.githubusercontent.com/37572495/205931599-ed3ce59a-5f5b-441a-b315-39d56961a8ce.png) 
